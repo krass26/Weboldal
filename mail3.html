@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game Brand</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3a3a3a;
+            color: #fff;
+        }
+        header {
+            background-color: #222;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(77, 77, 77, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        .main-image-container,
+        .additional-image-container {
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity here */
+        }
+        .image-text {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+        .social-links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .order-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #d9534f;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .order-button:hover {
+            background-color: #c9302c;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .additional-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="margin: 0;">Történelem Urai 1933</h1>
+    </header>
+    <div class="container">
+        <div class="main-image-container" style="background-image: url('https://raw.githubusercontent.com/krass26/Weboldal/main/borito-final-tu-2-1024x719.jpeg');">
+            <div class="image-overlay"></div>
+            <div class="image-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis ipsum in suscipit rutrum. Aliquam dictum eleifend lectus. Phasellus nec turpis ac nisl convallis laoreet</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis ipsum in suscipit rutrum. Aliquam dictum eleifend lectus. Phasellus nec turpis ac nisl convallis laoreet. Cras congue, tortor non lobortis posuere, mi felis sagittis ex, ut molestie mauris turpis eu quam. Cras nibh massa, hendrerit nec ipsum vitae, feugiat vehicula erat. Aenean augue leo, laoreet viverra erat ullamcorper, tincidunt auctor lectus. Nulla facilisi.</p>
+            </div>
+        </div>
+        <div class="additional-image-container" style="background-image: url('https://raw.githubusercontent.com/krass26/Weboldal/main/map-proba-1024x1024.jpg');">
+            <div class="image-overlay"></div>
+            <div class="image-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mollis ipsum in suscipit rutrum. Aliquam dictum eleifend lectus. Phasellus nec turpis ac nisl convallis laoreet</p>
+            </div>
+        </div>
+        <p>Kövess minket:</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100063797900448">Facebook</a>
+            <a href="#">Youtube</a>
+            <a href="#">Random link, ha kell</a>
+            <!-- Add more social media links as needed -->
+        </div>
+        <a href="#" class="order-button">Tudj meg többet</a>
+    </div>
+</body>
+</html>
